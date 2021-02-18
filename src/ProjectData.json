@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "Star Trek",
+    "img": "#",
+    "Description": "My firtstproject build with basic HTML and CSS",
+    "Tech stack used": "HTML CSS"
+  },
+  {
+"Name": "Cook Book",
+    "img": "#",
+    "Description": "Cook book app ",
+    "Tech stack used": "HTML, CSS, Javascript, React, NodeJS, Express, MongoDB"
+  },
+   {
+"Name": "Ting Tong",
+    "img": "#",
+    "Description": "Front End food delivery site ",
+    "Tech stack used": "HTML CSS,React, Material UI,"
+  }
+]
