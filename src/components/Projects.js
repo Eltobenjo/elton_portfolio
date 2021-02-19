@@ -9,11 +9,11 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-
+import Link from "@material-ui/core/Link";
 import GitHubIcon from "@material-ui/icons/GitHub";
-
-
-
+import enterprise from './images/enterprise.jpg';
+import LanguageIcon from "@material-ui/icons/Language";
+import cookbook from './images/cookbook.png'
 const useStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const cards = [1,2,3,4,5,6,7,8 ];
+
 
 export default function Projects() {
   const classes = useStyles();
@@ -73,48 +73,105 @@ export default function Projects() {
               color="textSecondary"
               paragraph
             >
-              Something short and leading about the collection below—its
-              contents, the creator, etc. Make it short and sweet, but not too
-              short so folks don&apos;t simply skip over it entirely.
+              Projects which demonstrate my coding ability and skill
+              progression.
             </Typography>
-            <div className={classes.heroButtons}>
-              <Grid container spacing={2} justify="center">
-                <Grid item></Grid>
-                <Grid item></Grid>
-              </Grid>
-            </div>
           </Container>
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4}>
-            {cards.map((card) => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image="https://source.unsplash.com/random"
-                    title="Image title"
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      My first project
-                    </Typography>
-                    <Typography>
-                      Built this with basic HTML and CSS knowledge.
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary">
-                      code <GitHubIcon></GitHubIcon>
-                    </Button>
-                    <Button size="small" color="primary">
-                      live
-                    </Button>
-                  </CardActions>
-                </Card>
-              </Grid>
-            ))}
+            {/* new project*/}
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <CardMedia
+                  className={classes.cardMedia}
+                  image={enterprise}
+                  title="Image title"
+                />
+                <CardContent className={classes.cardContent}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    My first project
+                  </Typography>
+                  <Typography>
+                    Built this with basic HTML and CSS knowledge.
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small" color="primary">
+                    <Link href="https://github.com/Eltobenjo/Star-Trek">
+                      <GitHubIcon></GitHubIcon>
+                    </Link>
+                  </Button>
+                  <Button size="small" color="primary">
+                    <Link href="https://eltobenjo.github.io/Star-Trek/">
+                      <LanguageIcon></LanguageIcon>
+                    </Link>
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
+
+            {/* new project*/}
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <CardMedia
+                  className={classes.cardMedia}
+                  image={cookbook}
+                  title="Image title"
+                />
+                <CardContent className={classes.cardContent}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                   Cookbook App
+                  </Typography>
+                  <Typography>
+                    More HTML and CSS but with version control.
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small" color="primary">
+                    <Link href="https://github.com/Eltobenjo/Cookbook">
+                      <GitHubIcon></GitHubIcon>
+                    </Link>
+                  </Button>
+                  <Button size="small" color="primary">
+                    <Link href="https://eltobenjo.github.io/Cookbook/">
+                      <LanguageIcon></LanguageIcon>
+                    </Link>
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
+            {/* new project*/}
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <CardMedia
+                  className={classes.cardMedia}
+                  image={cookbook}
+                  title="Image title"
+                />
+                <CardContent className={classes.cardContent}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Front-End Project
+                  </Typography>
+                  <Typography>
+                    Built using React.js
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small" color="primary">
+                    <Link href="https://github.com/Eltobenjo/Cookbook">
+                      <GitHubIcon></GitHubIcon>
+                    </Link>
+                  </Button>
+                  <Button size="small" color="primary">
+                    <Link href="https://eltobenjo.github.io/Cookbook/">
+                      <LanguageIcon></LanguageIcon>
+                    </Link>
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
           </Grid>
         </Container>
       </main>
