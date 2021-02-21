@@ -164,7 +164,7 @@ export default function Projects() {
                     </Link>
                   </Button>
                   <Button size="small" color="primary">
-                    <Link href="https://eltobenjo.github.io/React-Cook-Book/">
+                    <Link href=" https://cmscookbook.herokuapp.com/">
                       <LanguageIcon></LanguageIcon>
                     </Link>
                   </Button>
@@ -188,7 +188,7 @@ export default function Projects() {
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary">
-                    <Link href="#">
+                    <Link href="https://elton-portfolio.netlify.app/">
                       <GitHubIcon></GitHubIcon>
                     </Link>
                   </Button>
