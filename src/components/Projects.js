@@ -14,6 +14,11 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import enterprise from './images/enterprise.jpg';
 import LanguageIcon from "@material-ui/icons/Language";
 import cookbook from './images/cookbook.png'
+import portfolio from './images/Portfolio.png'
+import vegan from './images/vegan.png'
+
+
+
 const useStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
@@ -73,8 +78,7 @@ export default function Projects() {
               color="textSecondary"
               paragraph
             >
-              Projects which demonstrate my coding ability and skill
-              progression.
+              Projects which demonstrate my skill progression.
             </Typography>
           </Container>
         </div>
@@ -91,11 +95,9 @@ export default function Projects() {
                 />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    My first project
+                    My first Website
                   </Typography>
-                  <Typography>
-                    Built this with basic HTML and CSS knowledge.
-                  </Typography>
+                  <Typography>HTML and CSS.</Typography>
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary">
@@ -122,11 +124,9 @@ export default function Projects() {
                 />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                   Cookbook App
+                    Cookbook App
                   </Typography>
-                  <Typography>
-                    More HTML and CSS but with version control.
-                  </Typography>
+                  <Typography>HTML, CSS,Bootstrap and GitHub.</Typography>
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary">
@@ -135,43 +135,72 @@ export default function Projects() {
                     </Link>
                   </Button>
                   <Button size="small" color="primary">
-                    <Link href="https://eltobenjo.github.io/Cookbook/">
+                    <Link href="https://cookbook-elton.netlify.app/">
                       <LanguageIcon></LanguageIcon>
                     </Link>
                   </Button>
                 </CardActions>
               </Card>
             </Grid>
-            {/* new project*/}
+            {/* new project end*/}
+            {/* new project start*/}
             <Grid item xs={12} sm={6} md={4}>
               <Card className={classes.card}>
                 <CardMedia
                   className={classes.cardMedia}
-                  image={cookbook}
+                  image={vegan}
                   title="Image title"
                 />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
                     Front-End Project
                   </Typography>
-                  <Typography>
-                    Built using React.js
-                  </Typography>
+                  <Typography>React.js and Contentful CMS.</Typography>
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary">
-                    <Link href="https://github.com/Eltobenjo/Cookbook">
+                    <Link href="//github.com/Eltobenjo/React-Cook-Book">
                       <GitHubIcon></GitHubIcon>
                     </Link>
                   </Button>
                   <Button size="small" color="primary">
-                    <Link href="https://eltobenjo.github.io/Cookbook/">
+                    <Link href="https://eltobenjo.github.io/React-Cook-Book/">
                       <LanguageIcon></LanguageIcon>
                     </Link>
                   </Button>
                 </CardActions>
               </Card>
             </Grid>
+            {/* new project end*/}
+            {/* new project start*/}
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <CardMedia
+                  className={classes.cardMedia}
+                  image={portfolio}
+                  title="Image title"
+                />
+                <CardContent className={classes.cardContent}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    My Portfolio
+                  </Typography>
+                  <Typography>React, Material UI.</Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small" color="primary">
+                    <Link href="#">
+                      <GitHubIcon></GitHubIcon>
+                    </Link>
+                  </Button>
+                  <Button size="small" color="primary">
+                    <Link href="#">
+                      <LanguageIcon></LanguageIcon>
+                    </Link>
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
+            {/* new project end*/}
           </Grid>
         </Container>
       </main>
