@@ -188,12 +188,12 @@ export default function Projects() {
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary">
-                    <Link href="https://elton-portfolio.netlify.app/">
+                    <Link href="https://github.com/Eltobenjo/elton_portfolio">
                       <GitHubIcon></GitHubIcon>
                     </Link>
                   </Button>
                   <Button size="small" color="primary">
-                    <Link href="#">
+                    <Link href="#https://elton-portfolio.herokuapp.com/">
                       <LanguageIcon></LanguageIcon>
                     </Link>
                   </Button>
