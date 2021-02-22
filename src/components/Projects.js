@@ -188,7 +188,7 @@ export default function Projects() {
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary">
-                    <Link href="https://github.com/Eltobenjo/elton_portfolio">
+                    <Link href="#">
                       <GitHubIcon></GitHubIcon>
                     </Link>
                   </Button>
