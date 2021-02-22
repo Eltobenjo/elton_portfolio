@@ -189,7 +189,7 @@ export default function Projects() {
                 <CardActions>
                   <Button size="small" color="primary">
                     <Link href="#">
-                      <GitHubIcon></GitHubIcon>
+                    
                     </Link>
                   </Button>
                   <Button size="small" color="primary">
