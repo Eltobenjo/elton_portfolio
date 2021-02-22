@@ -41,7 +41,7 @@ const Home = () => {
               color="textSecondary"
               paragraph
             >
-              Apsiring Fullstack Web Developer
+              Front-End Web Developer
             </Typography>
           </Container>
         </div>
