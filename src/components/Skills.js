@@ -22,9 +22,10 @@ import heroku from './images/heroku.png'
 import bulma from './images/bulma.png'
 import git from './images/git.png'
 import github from './images/github.png'
-import sql from './images/sql.png'
+/*import sql from './images/sql.png'
 import mysql from './images/mysql.png'
 import postgresql from './images/postgresql.png'
+*/
 import vscode from './images/vscode.png'
 import bootstrap from "./images/bootstrap.png";
 import jira from './images/jira.png'
@@ -133,7 +134,7 @@ const cards = [
     Description: "",
   },
 
-  {
+/* {
     id: "11",
     name: "PostgreSQL",
     img: postgresql,
@@ -150,7 +151,7 @@ const cards = [
     name: "MySQL",
     img: mysql,
     Description: "",
-  },
+  },*/
 
   {
     id: "14",

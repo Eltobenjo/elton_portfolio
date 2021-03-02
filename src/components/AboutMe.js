@@ -1,6 +1,4 @@
 import React from "react";
-
-
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
@@ -20,9 +18,9 @@ const useStyles = makeStyles((theme) => ({
 export default function AboutMe() {
   const classes = useStyles();
   return (
-    <div className='aboutMe'>
+    <div className="aboutMe">
       <div className={classes.heroContent}>
-        <Container maxWidth="sm">
+        <Container maxWidth="lg">
           <Typography
             component="h1"
             variant="h2"
@@ -32,15 +30,16 @@ export default function AboutMe() {
           >
             About Me
           </Typography>
-          <Typography
-            variant="h5"
-            align="center"
-            color="textSecondary"
-            paragraph
-          >
-            Something short and leading about the collection below—its contents,
-            the creator, etc. Make it short and sweet, but not too short so
-            folks don&apos;t simply skip over it entirely.
+          <Typography variant="h5" align="left" color="textSecondary" paragraph>
+            I am a former Restaurant Manager with extensive experience in
+            controlling and budget planning, I have led large teams in fast
+            paced environments, developing, implementing and optimizing systems
+            and processes to increase productivity and reduce operating costs
+            while still maintaining a service standard .<br></br>
+            <br></br>Currently I am transitioning into Full-Stack Web Development
+            where it is my goal to use my skills and experience gained in
+            Gastronomy to develop Web Apps to help overcome challenges faced by the
+            industry in the digital age.
           </Typography>
           <div className={classes.heroButtons}>
             <Grid container spacing={2} justify="center">

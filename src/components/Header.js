@@ -109,14 +109,14 @@ export default function Header() {
             >
               Projects
             </Link>
-            <Link
+          {/*  <Link
               variant="button"
               color="textPrimary"
               href="/contact"
               className={classes.link}
             >
               Contact
-            </Link>
+          </Link>*/}
           </nav>
         </Toolbar>
       </AppBar>

@@ -41,7 +41,7 @@ const Home = () => {
               color="textSecondary"
               paragraph
             >
-              Front-End Web Developer
+               Web Developer
             </Typography>
           </Container>
         </div>

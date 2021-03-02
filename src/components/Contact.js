@@ -29,6 +29,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%", // Fix IE 11 issue.
     marginTop: theme.spacing(3),
   },
+ 
   submit: {
     margin: theme.spacing(3, 0, 2),
   },
@@ -86,10 +87,11 @@ export default function Contact() {
                 />
               </Grid>
               <Grid item xs={12}>
-                <TextareaAutosize
+                <TextareaAutosize 
                   aria-label="minimum height"
                   rowsMin={12}
                   placeholder="Message"
+              
                 />
               </Grid>
             </Grid>
