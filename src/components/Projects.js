@@ -135,7 +135,7 @@ export default function Projects() {
                     </Link>
                   </Button>
                   <Button size="small" color="primary">
-                    <Link href='https://elton-cookbook.netlify.app/'>
+                    <Link href="https://elton-cookbook.netlify.app/">
                       <LanguageIcon></LanguageIcon>
                     </Link>
                   </Button>
@@ -164,7 +164,7 @@ export default function Projects() {
                     </Link>
                   </Button>
                   <Button size="small" color="primary">
-                    <Link href=" https://cmscookbook.herokuapp.com/">
+                    <Link href=" https://cms-recipe-app.herokuapp.com/">
                       <LanguageIcon></LanguageIcon>
                     </Link>
                   </Button>
