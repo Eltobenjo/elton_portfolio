@@ -35,7 +35,7 @@ export default function AboutMe() {
             controlling and budget planning, I have led large teams in fast
             paced environments, developing, implementing and optimizing systems
             and processes to increase productivity and reduce operating costs
-            while still maintaining a  high service standard .<br></br>
+            while still maintaining a high service standard .<br></br>
             <br></br>Currently I am transitioning into Full-Stack Web Development
             where it is my goal to use my skills and experience gained in
             Gastronomy to develop Web Apps to help overcome challenges faced by the
