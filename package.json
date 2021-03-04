@@ -1,13 +1,11 @@
 {
   "name": "elton_portfolio",
   "version": "0.1.0",
- "engines": {
+  "engines": {
     "node": "12.18.x",
     "npm": "6.x"
   },
-
   "private": true,
- 
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
