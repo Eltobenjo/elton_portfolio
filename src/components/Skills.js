@@ -8,29 +8,27 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import html from "./images/html.png";
-import css from './images/css.png'
-import js from './images/js.png'
-import react from './images/react.png'
-import node from './images/node.png'
-import sass from './images/sass.png'
-import materialui from './images/materialui.png'
-import trello from './images/trello.png'
-import scrum from './images/scrum.png'
-import mongodb from './images/mongodb.png'
-import netlify from './images/netlify.png'
-import heroku from './images/heroku.png'
-import bulma from './images/bulma.png'
-import git from './images/git.png'
-import github from './images/github.png'
+import css from "./images/css.png";
+import js from "./images/js.png";
+import react from "./images/react.png";
+import node from "./images/node.png";
+import sass from "./images/sass.png";
+import materialui from "./images/materialui.png";
+import trello from "./images/trello.png";
+import scrum from "./images/scrum.png";
+import mongodb from "./images/mongodb.png";
+import netlify from "./images/netlify.png";
+import heroku from "./images/heroku.png";
+import bulma from "./images/bulma.png";
+import git from "./images/git.png";
+import github from "./images/github.png";
 /*import sql from './images/sql.png'
 import mysql from './images/mysql.png'
 import postgresql from './images/postgresql.png'
 */
-import vscode from './images/vscode.png'
+import vscode from "./images/vscode.png";
 import bootstrap from "./images/bootstrap.png";
-import jira from './images/jira.png'
-
-
+import jira from "./images/jira.png";
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -51,13 +49,10 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
     display: "flex",
     flexDirection: "column",
-    
   },
   cardMedia: {
     paddingTop: "56.25%", // 16:9
-    
   },
-
 
   cardContent: {
     flexGrow: 1,
@@ -66,7 +61,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
   },
-
 }));
 
 const cards = [
@@ -134,7 +128,7 @@ const cards = [
     Description: "",
   },
 
-/* {
+  /* {
     id: "11",
     name: "PostgreSQL",
     img: postgresql,
@@ -202,8 +196,6 @@ const cards = [
     Description: "",
   },
 ];
-;
-
 export default function Skills() {
   const classes = useStyles();
 
@@ -227,9 +219,8 @@ export default function Skills() {
               variant="h5"
               align="center"
               color="textSecondary"
-              paragraph>
-             
-            </Typography>
+              paragraph
+            ></Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item></Grid>
@@ -242,17 +233,13 @@ export default function Skills() {
           {/* End hero unit */}
           <Grid container spacing={4}>
             {cards.map((card) => (
-              
               <Grid item key={card.id} xs={6} sm={12} md={4}>
-                
                 <Card className={classes.card}>
                   <CardMedia className={classes.cardMedia} image={card.img} />
                   <CardContent className={classes.cardContent}>
-                    <Typography
-                      gutterBottom
-                      variant="h5"
-                      component="h2"
-                    >{card.name}</Typography>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      {card.name}
+                    </Typography>
                     <Typography></Typography>
                   </CardContent>
                 </Card>
