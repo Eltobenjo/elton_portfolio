@@ -135,7 +135,7 @@ export default function Projects() {
                     </Link>
                   </Button>
                   <Button size="small" color="primary">
-                    <Link href="https://cookbook-elton.netlify.app/">
+                    <Link href='https://elton-cookbook.netlify.app/'>
                       <LanguageIcon></LanguageIcon>
                     </Link>
                   </Button>
