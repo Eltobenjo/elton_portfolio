@@ -14,7 +14,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import enterprise from './images/enterprise.jpg';
 import LanguageIcon from "@material-ui/icons/Language";
 import cookbook from './images/cookbook.png'
-import portfolio from './images/Portfolio.png'
+import portfolio from './images/portfolio.png'
 import vegan from './images/vegan.png'
 
 
