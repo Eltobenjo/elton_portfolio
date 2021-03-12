@@ -3,6 +3,7 @@ import elton from "./images/elton.jpg";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
+import Typed from "react-typed";
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
@@ -33,7 +34,13 @@ const Home = () => {
               color="textPrimary"
               gutterBottom
             >
-              Hi I'm Elton
+              <Typed
+                className="typed-text"
+                strings={["Front-end Developer", "Hi, I'm Elton"]}
+                typeSpeed={40}
+                backSpeed={60}
+                loop
+              />
             </Typography>
             <Typography
               variant="h5"
@@ -41,7 +48,7 @@ const Home = () => {
               color="textSecondary"
               paragraph
             >
-               Web Developer
+           
             </Typography>
           </Container>
         </div>

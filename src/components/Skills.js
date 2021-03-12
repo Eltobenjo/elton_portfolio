@@ -7,7 +7,9 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-import html from "./images/html.png";
+import cards from './SkillsData.js'
+
+/*import html from "./images/html.png";
 import css from "./images/css.png";
 import js from "./images/js.png";
 import react from "./images/react.png";
@@ -25,10 +27,10 @@ import github from "./images/github.png";
 /*import sql from './images/sql.png'
 import mysql from './images/mysql.png'
 import postgresql from './images/postgresql.png'
-*/
+
 import vscode from "./images/vscode.png";
 import bootstrap from "./images/bootstrap.png";
-import jira from "./images/jira.png";
+import jira from "./images/jira.png";*/
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -63,7 +65,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const cards = [
+/*const cards = [
   {
     id: "1",
     name: "HTML 5",
@@ -145,7 +147,7 @@ const cards = [
     name: "MySQL",
     img: mysql,
     Description: "",
-  },*/
+  },
 
   {
     id: "14",
@@ -195,7 +197,7 @@ const cards = [
     img: jira,
     Description: "",
   },
-];
+];*/
 export default function Skills() {
   const classes = useStyles();
 
@@ -235,7 +237,7 @@ export default function Skills() {
             {cards.map((card) => (
               <Grid item key={card.id} xs={6} sm={12} md={4}>
                 <Card className={classes.card}>
-                  <CardMedia className={classes.cardMedia} image={card.img} />
+                  <CardMedia className={classes.cardMedia} image={card.image} />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
                       {card.name}
