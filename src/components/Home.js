@@ -3,13 +3,12 @@ import elton from "./images/elton.jpg";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-import Typed from "react-typed";
+import ReactTypingEffect from "react-typing-effect";
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 0, 6),
-    
   },
 }));
 
@@ -30,16 +29,15 @@ const Home = () => {
             <Typography
               component="h1"
               variant="h2"
-              align="center"
+              align="left"
               color="textPrimary"
               gutterBottom
-            >
-              <Typed
-                className="typed-text"
-                strings={["Front-end Developer", "Hi, I'm Elton"]}
-                typeSpeed={40}
-                backSpeed={60}
-                loop
+            >Hi, I'm Elton<br></br>
+              <ReactTypingEffect
+                text={["Front-End Developer"]}
+                typingDelay="1000ms"
+                eraseSpeed="2000ms"
+             
               />
             </Typography>
             <Typography
@@ -47,9 +45,7 @@ const Home = () => {
               align="center"
               color="textSecondary"
               paragraph
-            >
-           
-            </Typography>
+            ></Typography>
           </Container>
         </div>
       </div>

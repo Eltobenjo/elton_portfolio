@@ -4,7 +4,6 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 
-
 const useStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
@@ -31,15 +30,27 @@ export default function AboutMe() {
             About Me
           </Typography>
           <Typography variant="h5" align="left" color="textSecondary" paragraph>
-            I am a former Restaurant Manager with extensive experience in
-            controlling and budget planning, I have led large teams in fast
-            paced environments, developing, implementing and optimizing systems
-            and processes to increase productivity and reduce operating costs
-            while still maintaining a high service standard .<br></br>
-            <br></br>Currently I am transitioning into Full-Stack Web Development
-            where it is my goal to use my skills and experience gained in
-            Gastronomy to develop Web Apps to help overcome challenges faced by the
-            industry in the digital age.
+            I am a humorous, empathic, communicative, and solution-oriented
+            person with strong leadership and problem-solving abilities I
+            recognize what needs to be done and have learned that by fostering a
+            positive esprit de corps and motivating colleagues I can get even
+            more out of my work, an essential skill that has served me well with
+            my restaurant teams just as much as onboard a Submarine.<br></br>
+            <br></br> I am a fast and eager learner and have always had an
+            affinity for tech.I wrote my first code on my Commodore Vic 20 at 11
+            years old.I served in the South African Navy as a Submariner working
+            with submarine sensors and weapon aiming systems and as a Leading
+            Seaman I was incharge of 9 weapons ratings plus 3 trainees, I then
+            as a PC and Network Technician and on arriving in Germany I started
+            working in the restaurant business where I quickly rose to
+            management and became adept at configuring, integrating and
+            optimizing point of sale, personnel organization, and inventory
+            management software as well as leading teams of up to 75 staff
+            members and learning German.<br></br>
+            <br></br>I am currently switching to Web Development and to that end
+            I have taken part in a Coding Boot Camp to improve my coding skills.
+            I am looking for a position to expand my knowledge and to use my
+            skills and experience to make valuable contribution .
           </Typography>
           <div className={classes.heroButtons}>
             <Grid container spacing={2} justify="center">
@@ -52,5 +63,3 @@ export default function AboutMe() {
     </div>
   );
 }
-
-

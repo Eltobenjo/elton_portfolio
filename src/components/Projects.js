@@ -11,13 +11,12 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Link from "@material-ui/core/Link";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import enterprise from './images/enterprise.jpg';
+//import enterprise from './images/enterprise.jpg';
 import LanguageIcon from "@material-ui/icons/Language";
-import cookbook from './images/cookbook.png'
-import portfolio from './images/portfolio.png'
-import vegan from './images/vegan.png'
-
-
+//import cookbook from './images/cookbook.png'
+//import portfolio from './images/portfolio.png'
+//import vegan from './images/vegan.png'
+import projects from "./Data/ProjectsData";
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -51,8 +50,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-
-
 export default function Projects() {
   const classes = useStyles();
 
@@ -78,129 +75,42 @@ export default function Projects() {
               color="textSecondary"
               paragraph
             >
-              Projects which demonstrate my skill progression.
+              Demonstrating my skill progression.
             </Typography>
           </Container>
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4}>
-            {/* new project*/}
-            <Grid item xs={12} sm={6} md={4}>
-              <Card className={classes.card}>
-                <CardMedia
-                  className={classes.cardMedia}
-                  image={enterprise}
-                  title="Image title"
-                />
-                <CardContent className={classes.cardContent}>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    My first Website
-                  </Typography>
-                  <Typography>HTML and CSS.</Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary">
-                    <Link href="https://github.com/Eltobenjo/Star-Trek">
-                      <GitHubIcon></GitHubIcon>
-                    </Link>
-                  </Button>
-                  <Button size="small" color="primary">
-                    <Link href="https://eltobenjo.github.io/Star-Trek/">
-                      <LanguageIcon></LanguageIcon>
-                    </Link>
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-
-            {/* new project*/}
-            <Grid item xs={12} sm={6} md={4}>
-              <Card className={classes.card}>
-                <CardMedia
-                  className={classes.cardMedia}
-                  image={cookbook}
-                  title="Image title"
-                />
-                <CardContent className={classes.cardContent}>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Cookbook App
-                  </Typography>
-                  <Typography>HTML, CSS,Bootstrap and GitHub.</Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary">
-                    <Link href="https://github.com/Eltobenjo/Cookbook">
-                      <GitHubIcon></GitHubIcon>
-                    </Link>
-                  </Button>
-                  <Button size="small" color="primary">
-                    <Link href="https://elton-cookbook.netlify.app/">
-                      <LanguageIcon></LanguageIcon>
-                    </Link>
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-            {/* new project end*/}
-            {/* new project start*/}
-            <Grid item xs={12} sm={6} md={4}>
-              <Card className={classes.card}>
-                <CardMedia
-                  className={classes.cardMedia}
-                  image={vegan}
-                  title="Image title"
-                />
-                <CardContent className={classes.cardContent}>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Front-End Project
-                  </Typography>
-                  <Typography>React.js and Contentful CMS.</Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary">
-                    <Link href="//github.com/Eltobenjo/React-Cook-Book">
-                      <GitHubIcon></GitHubIcon>
-                    </Link>
-                  </Button>
-                  <Button size="small" color="primary">
-                    <Link href=" https://cms-recipe-app.herokuapp.com/">
-                      <LanguageIcon></LanguageIcon>
-                    </Link>
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-            {/* new project end*/}
-            {/* new project start*/}
-            <Grid item xs={12} sm={6} md={4}>
-              <Card className={classes.card}>
-                <CardMedia
-                  className={classes.cardMedia}
-                  image={portfolio}
-                  title="Image title"
-                />
-                <CardContent className={classes.cardContent}>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    My Portfolio
-                  </Typography>
-                  <Typography>React, Material UI.</Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary">
-                    <Link href="https://github.com/Eltobenjo/elton_portfolio">
-                      <GitHubIcon></GitHubIcon>
-                    </Link>
-                  </Button>
-                  <Button size="small" color="primary">
-                    <Link href="https://elton-portfolio.herokuapp.com/">
-                      <LanguageIcon></LanguageIcon>
-                    </Link>
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-            {/* new project end*/}
+            {projects.map((project) => (
+              <Grid item xs={12} sm={6} md={4}>
+                <Card className={classes.card}>
+                  <CardMedia
+                    className={classes.cardMedia}
+                    image={project.image}
+                    title="Image title"
+                  />
+                  <CardContent className={classes.cardContent}>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      {project.name}
+                    </Typography>
+                    <Typography>{project.description}</Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Button size="small" color="primary">
+                      <Link href={project.github}>
+                        <GitHubIcon></GitHubIcon>
+                      </Link>
+                    </Button>
+                    <Button size="small" color="primary">
+                      <Link href={project.live}>
+                        <LanguageIcon></LanguageIcon>
+                      </Link>
+                    </Button>
+                  </CardActions>
+                </Card>
+              </Grid>
+            ))}
           </Grid>
         </Container>
       </main>

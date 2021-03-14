@@ -7,7 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-import cards from './SkillsData.js'
+import cards from './Data/SkillsData.js'
 
 /*import html from "./images/html.png";
 import css from "./images/css.png";
