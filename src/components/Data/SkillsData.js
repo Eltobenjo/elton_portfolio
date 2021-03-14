@@ -1,6 +1,6 @@
 import html from "../images/html.png";
 import css from "../images/css.png";
-import js from "../images/js.png";
+import javascript from "../images/javascript.png";
 import react from "../images/react.png";
 import node from "../images/node.png";
 import sass from "../images/sass.png";
@@ -62,7 +62,7 @@ const SkillsData = [
   {
     id: 7,
     name: "Javascript",
-    image: js,
+    image: javascript,
     Description: " ",
   },
   {
