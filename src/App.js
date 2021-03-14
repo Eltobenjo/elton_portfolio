@@ -22,9 +22,9 @@ function App() {
         <Route path="/aboutme">
           <AboutMe />
         </Route>
-       {/* <Route path="/skills">
+        <Route path="/skills">
           <Skills />
-  </Route>*/}
+  </Route>
         <Route path="/projects">
           <Projects />
         </Route>
