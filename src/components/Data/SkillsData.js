@@ -54,7 +54,7 @@ const SkillsData = [
   },
   {
     id: 6,
-    name: "materialui",
+    name: "Material UI",
     image: materialui,
     Description: "",
   },
