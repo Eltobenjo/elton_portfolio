@@ -50,7 +50,7 @@ export default function AboutMe() {
             <br></br>I am currently switching to Web Development and to that end
             I have taken part in a Coding Boot Camp to improve my coding skills.
             I am looking for a position to expand my knowledge and to use my
-            skills and experience to make valuable contribution .
+            skills and experience to make valuable a contribution .
           </Typography>
           <div className={classes.heroButtons}>
             <Grid container spacing={2} justify="center">
