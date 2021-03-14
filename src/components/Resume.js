@@ -170,9 +170,14 @@ export default function Resume() {
               Jan 1995-1998<br></br>SA Navy<br></br>
               Submariner
             </Typography>
+            
+
           </TimelineContent>
         </TimelineItem>
       </Timeline>
+
+
+      
     </React.Fragment>
   );
 }

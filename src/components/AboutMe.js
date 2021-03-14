@@ -39,8 +39,8 @@ export default function AboutMe() {
             <br></br> I am a fast and eager learner and have always had an
             affinity for tech.I wrote my first code on my Commodore Vic 20 at 11
             years old.I served in the South African Navy as a Submariner working
-            with submarine sensors and weapon aiming systems and as a Leading
-            Seaman I was incharge of 9 weapons ratings plus 3 trainees, I then
+            with submarine sensors and weapon systems and as a Leading
+            Seaman I was in charge of 9 weapons ratings plus 3 trainees, I then
             as a PC and Network Technician and on arriving in Germany I started
             working in the restaurant business where I quickly rose to
             management and became adept at configuring, integrating and
