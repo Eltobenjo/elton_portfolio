@@ -32,12 +32,12 @@ const Home = () => {
               align="left"
               color="textPrimary"
               gutterBottom
-            >Hi, I'm Elton<br></br>
+            >
+              Hi, I'm Elton<br></br>
               <ReactTypingEffect
                 text={["Junior Front-End Developer"]}
                 typingDelay="1000ms"
                 eraseSpeed="2000ms"
-             
               />
             </Typography>
             <Typography
@@ -47,9 +47,13 @@ const Home = () => {
               paragraph
             ></Typography>
           </Container>
+         
         </div>
       </div>
+      
     </div>
+
+    
   );
 };
 

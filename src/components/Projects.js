@@ -91,7 +91,8 @@ export default function Projects() {
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" componen
+                    t="h2">
                       {project.name}
                     </Typography>
                     <Typography>{project.description}</Typography>

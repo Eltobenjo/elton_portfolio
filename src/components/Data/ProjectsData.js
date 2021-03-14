@@ -3,14 +3,15 @@ import cookbook from "../images/cookbook.png";
 import portfolio from "../images/portfolio.png";
 import cmscookbook from "../images/cmscookbook.png";
 
+
 const ProjectsData = [
-  {
-    id: 1,
-    name: "My First Website",
+  
+   { id: 1,
+    name: "Basics",
     image: enterprise,
     github: "https://github.com/Eltobenjo/Star-Trek",
     live: "https://eltobenjo.github.io/Star-Trek/",
-    description: "Basic site using HTML and CSS",
+    description:  'A basic site using HTML and CSS',
   },
   {
     id: 2,
@@ -18,7 +19,7 @@ const ProjectsData = [
     image: cookbook,
     github: "https://github.com/Eltobenjo/Cookbook",
     live: "https://elton-cookbook.netlify.app/",
-    description: "Built using HTML, CSS, Bootstrap Git and github",
+    description: "Group project built using HTML, CSS, Bootstrap Git and Github",
   },
   {
     id: 3,
@@ -34,7 +35,7 @@ const ProjectsData = [
     image: portfolio,
     github: "https://github.com/Eltobenjo/elton_portfolio",
     live: "https://elton-portfolio.herokuapp.com/",
-    description: "Built using React,Material UI",
+    description: "Built using React and Material UI",
   },
 ];
 export default ProjectsData;

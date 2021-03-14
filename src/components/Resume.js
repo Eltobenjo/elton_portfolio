@@ -151,7 +151,7 @@ export default function Resume() {
               color="textSecondary"
               paragraph
             >
-              Feb 1999-Feb 2001<br></br>Comtechs<br></br>PC/Network Technician
+              Feb 1999-Feb 2001<br></br>Comtech<br></br>PC/Network Technician
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -177,7 +177,7 @@ export default function Resume() {
       </Timeline>
 
 
-      
+
     </React.Fragment>
   );
 }

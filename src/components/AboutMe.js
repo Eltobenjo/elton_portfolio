@@ -37,12 +37,12 @@ export default function AboutMe() {
             more out of my work, an essential skill that has served me well with
             my restaurant teams just as much as onboard a Submarine.<br></br>
             <br></br> I am a fast and eager learner and have always had an
-            affinity for tech.I wrote my first code on my Commodore Vic 20 at 11
+            affinity for tech.I wrote my first code on my Commodore Vic 20 at 11 and built my first PC at 17
             years old.I served in the South African Navy as a Submariner working
             with submarine sensors and weapon systems and as a Leading
-            Seaman I was in charge of 9 weapons ratings plus 3 trainees, I then
+            Seaman I was in charge of 9 weapons ratings plus 3 trainees, I then worked
             as a PC and Network Technician and on arriving in Germany I started
-            working in the restaurant business where I quickly rose to
+            working in the restaurant industry and quickly rose to
             management and became adept at configuring, integrating and
             optimizing point of sale, personnel organization, and inventory
             management software as well as leading teams of up to 75 staff
