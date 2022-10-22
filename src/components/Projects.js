@@ -11,11 +11,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Link from "@material-ui/core/Link";
 import GitHubIcon from "@material-ui/icons/GitHub";
-//import enterprise from './images/enterprise.jpg';
+
 import LanguageIcon from "@material-ui/icons/Language";
-//import cookbook from './images/cookbook.png'
-//import portfolio from './images/portfolio.png'
-//import vegan from './images/vegan.png'
+
 import projects from "./Data/ProjectsData";
 
 const useStyles = makeStyles((theme) => ({
@@ -91,8 +89,7 @@ export default function Projects() {
                     title="Image title"
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" componen
-                    t="h2">
+                    <Typography gutterBottom variant="h5" componen t="h2">
                       {project.name}
                     </Typography>
                     <Typography>{project.description}</Typography>
