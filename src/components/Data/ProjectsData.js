@@ -6,7 +6,7 @@ import portfolio from "../images/portfolio.png";
 const ProjectsData = [
   
   {
-    id: 4,
+    id: 1,
     name: " My Portfolio",
     image: portfolio,
     github: "https://github.com/Eltobenjo/elton_portfolio",

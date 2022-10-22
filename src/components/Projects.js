@@ -73,7 +73,7 @@ export default function Projects() {
               color="textSecondary"
               paragraph
             >
-              Demonstrating my skill progression.
+              
             </Typography>
           </Container>
         </div>
