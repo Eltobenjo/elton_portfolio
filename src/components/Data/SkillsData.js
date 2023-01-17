@@ -5,8 +5,8 @@ import react from "../images/react.png";
 import node from "../images/node.png";
 import sass from "../images/sass.png";
 import materialui from "../images/materialui.png";
-import trello from "../images/trello.png";
-import scrum from "../images/scrum.png";
+/* import trello from "../images/trello.png";
+import scrum from "../images/scrum.png"; */
 import mongodb from "../images/mongodb.png";
 import netlify from "../images/netlify.png";
 import heroku from "../images/heroku.png";
@@ -18,7 +18,7 @@ import mysql from "../images/mysql.png";
 import postgresql from "../images/postgresql.png";
 import vscode from "../images/vscode.png";
 import bootstrap from "../images/bootstrap.png";
-import jira from "../images/jira.png";
+// import jira from "../images/jira.png";
 
 const SkillsData = [
   {
@@ -134,7 +134,7 @@ const SkillsData = [
     image: git,
     Description: "",
   },
-  {
+ /*  {
     id: 19,
     name: "Agile & Scrum",
     image: scrum,
@@ -151,7 +151,7 @@ const SkillsData = [
     name: "Jira",
     image: jira,
     Description: "",
-  },
+  }, */
 ];
  export default SkillsData;
 

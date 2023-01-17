@@ -8,6 +8,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
+
+
+
+
+
 const useStyles = makeStyles((theme) => ({
   "@global": {
     ul: {
@@ -18,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
   appBar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
+  
     position: "fixed",
     height:'4rem',
     flexWrap:'wrap',
@@ -42,7 +48,7 @@ export default function Navbar() {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
+    <div className="app-bar">
       <CssBaseline />
       <AppBar
         position="fixed"
@@ -72,7 +78,7 @@ export default function Navbar() {
         <Toolbar className={classes.toolbar}>
           <Typography
             variant="h6"
-            color="inherit"
+            color=""
             noWrap
             className={classes.toolbarTitle}
           ></Typography>
@@ -120,6 +126,6 @@ export default function Navbar() {
           </nav>
         </Toolbar>
       </AppBar>
-    </React.Fragment>
+    </div>
   );
 }

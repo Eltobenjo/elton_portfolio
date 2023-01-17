@@ -35,7 +35,7 @@ const Home = () => {
             >
               Hi, I'm Elton<br></br>
               <ReactTypingEffect
-                text={["Aspiring Web Developer"]}
+                text={["Web Developer"]}
                 typingDelay="1000ms"
                 eraseSpeed="2000ms"
               />
