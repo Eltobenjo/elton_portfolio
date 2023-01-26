@@ -27,7 +27,7 @@ const ProjectsData = [
     name: " My First Proffessional site.",
     image: p64,
     github: "",
-    live: "https://pokoje64.netlify.app/",
+    live: "https://pokoje64.pl/",
     description: "My very first proffessional website using HTML,CSS and W3.CSS framework.",
   },
 ];
