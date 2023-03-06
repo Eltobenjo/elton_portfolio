@@ -1,6 +1,6 @@
 
 import portfolio from "../images/portfolio.png";
-import enterprise from "../images/enterprise.jpg";
+
 import p64 from "../images/p64.png";
 
 
