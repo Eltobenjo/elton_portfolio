@@ -14,14 +14,7 @@ const ProjectsData = [
     live: "https://elton-portfolio.herokuapp.com/",
     description: "Built using React and Material UI",
   },
-  {
-    id: 2,
-    name: " My First site",
-    image: enterprise,
-    github: "https://github.com/Eltobenjo/elton_portfolio",
-    live: "https://eltons-first.netlify.app/",
-    description: "My very first attemp at building a wesite",
-  },
+ 
   {
     id: 2,
     name: " My First Proffessional site.",

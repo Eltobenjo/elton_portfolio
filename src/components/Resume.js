@@ -50,8 +50,7 @@ export default function Resume() {
               color="textSecondary"
               paragraph
             >
-              September 2018-June 2020<br></br>Chicago Meatpackers<br></br>
-              Manager
+              September 2022-Present<br></br>Web Developer<br></br>Freelance
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -67,8 +66,8 @@ export default function Resume() {
               color="textSecondary"
               paragraph
             >
-              June 2018-Aug 2020<br></br>Fletchers Better Burger<br></br>
-              Manager
+              2021-2022<br></br>Chipotle Mexican Grill<br></br>
+              General Manager
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -84,15 +83,50 @@ export default function Resume() {
               color="textSecondary"
               paragraph
             >
-              March 2018-May 2018<br></br>Dicke Wutz American BBQ<br></br>
+              2018-2020
+              <br></br>Chicago Meatpackers<br></br>
+              General Manager
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography
+              variant="h6"
+              align="right"
+              color="textSecondary"
+              paragraph
+            >
+              2016-2018<br></br>Yours Sports Bars Germany<br></br>General Manager
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography
+              variant="h6"
+              align="left"
+              color="textSecondary"
+              paragraph
+            >
+              2004-2016<br></br>O´Reillys´s Irish Pubs Germany<br></br>
               Manager
             </Typography>
           </TimelineContent>
         </TimelineItem>
-
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot />
+
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
@@ -102,7 +136,7 @@ export default function Resume() {
               color="textSecondary"
               paragraph
             >
-              May 2016-April-Feb 2018<br></br>Yours Sports Bars<br></br>Manager
+              2001-2004<br></br>Fox Pubs Germany<br></br>General Manager
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -118,66 +152,13 @@ export default function Resume() {
               color="textSecondary"
               paragraph
             >
-              Jan 2004-April 2016<br></br>Oreillys Irish Pubs<br></br>Manager
+              1995-1998<br></br>South african Navy <br></br>Submariner
             </Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot />
-
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <Typography
-              variant="h6"
-              align="right"
-              color="textSecondary"
-              paragraph
-            >
-              August 2001-Dec 2003<br></br>Fox Pubs<br></br>Manager
-            </Typography>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <Typography
-              variant="h6"
-              align="left"
-              color="textSecondary"
-              paragraph
-            >
-              Feb 1999-Feb 2001<br></br>Comtech<br></br>PC/Network Technician
-            </Typography>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot />
-          </TimelineSeparator>
-
-          <TimelineContent>
-            <Typography
-              variant="h6"
-              align="right"
-              color="textSecondary"
-              paragraph
-            >
-              Jan 1995-1998<br></br>SA Navy<br></br>
-              Submariner
-            </Typography>
-            
-
-          </TimelineContent>
-        </TimelineItem>
+      
+         
       </Timeline>
-
-
-
     </React.Fragment>
   );
 }
